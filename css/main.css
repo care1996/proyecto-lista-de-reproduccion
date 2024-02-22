@@ -13,8 +13,8 @@ body {
   margin: 100px;
   padding: 0;
   background-image: url(../assets/pastel-pink-alcohol-ink-background-with-gold-glitter-elements-free-vector.jpg);
-  background-size: cover; /* Para cubrir todo el tamaño del cuerpo */
-  background-position: center; /* Para centrar la imagen de fondo */
+  background-size: cover; 
+  background-position: center; 
 }
 
 .reproductorMusica {
@@ -26,12 +26,12 @@ body {
   top: 0;
   left: 0;
   margin-top: 50px;
-  width: 700px; /* Ancho del recuadro */
-  background-color:  rgb(173, 211, 172); /* Color de fondo */
-  border: 2px solid rgba(10, 7, 7, 0.2); /* Borde */
-  border-radius: 10px; /* Borde redondeado */
-  box-shadow: 0 0 10px rgba(0, 0, 0, .2); /* Sombra */
-  padding: 20px; /* Espaciado interno */
+  width: 700px; 
+  background-color:  rgb(173, 211, 172); 
+  border: 2px solid rgba(10, 7, 7, 0.2); 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  padding: 20px; 
   margin: 100px;
   margin-left: 120px;
 }
@@ -75,9 +75,9 @@ body {
 
 /* Estilo para el buscador */
 .buscador {
-  justify-content: flex-end; /* Alinea los elementos internos a la derecha */
-  margin-right: 160px; /* Ajusta según necesites para mover más a la derecha */
-  margin-top: 20px; /* Ajusta según necesites para mover más arriba */
+  justify-content: flex-end; 
+  margin-right: 160px; 
+  margin-top: 20px; 
   position: absolute;
   top: 0;
   right: 0;
@@ -88,24 +88,24 @@ body {
 
 #buscarInput {
   padding: 8px;
-  width: 150px; /* Reducido el ancho para dejar espacio para el botón */
-  border: none; /* Sin borde */
-  border-radius: 20px; /* Bordes redondeados */
+  width: 150px; 
+  border: none; 
+  border-radius: 20px; 
 }
 
 button {
   padding: 8px 16px;
   margin-top: 80px;
-  background-color: #fff; /* Fondo blanco */
+  background-color: #fff; 
   border: none;
-  color: rgb(173, 211, 172); /* Color del texto */
+  color: rgb(173, 211, 172); 
   cursor: pointer;
-  border-radius: 20px; /* Bordes redondeados */
-  margin-left: 5px; /* Espacio a la izquierda para separarlo del input */
+  border-radius: 20px; 
+  margin-left: 5px; 
 }
 
 button:hover {
-  background-color: #f0f0f0; /* Cambio de color al pasar el cursor */
+  background-color: #f0f0f0;
 }
 
 /* Estilo para los resultados de búsqueda */
@@ -113,7 +113,7 @@ button:hover {
   position: absolute;
   top: 0;
   right: 0;
-  margin-top: 150px; /* Ajusta según necesites para mover más arriba */
+  margin-top: 150px; 
   margin-right: 125px;;
 }
 
