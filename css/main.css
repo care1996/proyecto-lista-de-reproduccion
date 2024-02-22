@@ -1,0 +1,190 @@
+/* Importaciones */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+
+}
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  margin: 100px;
+  padding: 0;
+  background-image: url(../assets/pastel-pink-alcohol-ink-background-with-gold-glitter-elements-free-vector.jpg);
+  background-size: cover; /* Para cubrir todo el tamaño del cuerpo */
+  background-position: center; /* Para centrar la imagen de fondo */
+}
+
+.reproductorMusica {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 50px;
+  width: 700px; /* Ancho del recuadro */
+  background-color:  rgb(173, 211, 172); /* Color de fondo */
+  border: 2px solid rgba(10, 7, 7, 0.2); /* Borde */
+  border-radius: 10px; /* Borde redondeado */
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2); /* Sombra */
+  padding: 20px; /* Espaciado interno */
+  margin: 100px;
+  margin-left: 120px;
+}
+
+.Datos {
+  text-align: center;
+}
+
+#songName {
+  color: #333;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+#cover{
+  width: 200px;
+  border: radius 50%;
+}
+#duration,
+#artist,
+#year,
+#genre {
+  color: #666;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.barradereproduccion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.barradereproduccion i {
+  font-size: 32px;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+/* Estilo para el buscador */
+.buscador {
+  justify-content: flex-end; /* Alinea los elementos internos a la derecha */
+  margin-right: 160px; /* Ajusta según necesites para mover más a la derecha */
+  margin-top: 20px; /* Ajusta según necesites para mover más arriba */
+  position: absolute;
+  top: 0;
+  right: 0;
+  
+}
+
+
+
+#buscarInput {
+  padding: 8px;
+  width: 150px; /* Reducido el ancho para dejar espacio para el botón */
+  border: none; /* Sin borde */
+  border-radius: 20px; /* Bordes redondeados */
+}
+
+button {
+  padding: 8px 16px;
+  margin-top: 80px;
+  background-color: #fff; /* Fondo blanco */
+  border: none;
+  color: rgb(173, 211, 172); /* Color del texto */
+  cursor: pointer;
+  border-radius: 20px; /* Bordes redondeados */
+  margin-left: 5px; /* Espacio a la izquierda para separarlo del input */
+}
+
+button:hover {
+  background-color: #f0f0f0; /* Cambio de color al pasar el cursor */
+}
+
+/* Estilo para los resultados de búsqueda */
+.resultados-busqueda {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 150px; /* Ajusta según necesites para mover más arriba */
+  margin-right: 125px;;
+}
+
+.resultados-busqueda h2 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.resultados-busqueda .elementos-lista {
+  width: 400px;
+  height: 400px;
+  list-style: none;
+  padding: 0;
+  overflow-y: scroll; 
+  
+}
+
+.elementos-lista li {
+  background-color:  rgb(173, 211, 172);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+/* Estilo para las listas de reproducción */
+.Listas {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 600px;
+  
+}
+
+.Lista,
+.favoritos,
+.myplaylist {
+  text-align: center;
+  height: 425px;
+  width: 400px; 
+  background-color:  rgb(173, 211, 172); 
+  border: 2px solid rgba(0, 0, 0, 0.2); 
+  border-radius: 10px; 
+  padding: 20px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow-y: scroll; 
+}
+
+.Lista h2,
+.favoritos h2,
+.myplaylist h2 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.elementos-lista {
+  list-style: none;
+  padding: 10px;
+}
+
+.elementos-lista li {
+  background-color: rgb(173, 211, 172);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease; 
+}
+
+.elementos-lista li:hover {
+  background-color:  rgb(173, 211, 172); 
+}

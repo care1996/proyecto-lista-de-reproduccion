@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reproductor de Música</title>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+  
+    
+    <div class="reproductorMusica">
+      <img id="caratulas"/>
+      
+      <div class="Datos">
+        <img id="cover"  src="">
+        <h3 id="songName">Nombre de la Canción</h3>
+        <p id="duration">Duracion</p>
+        <p id="artist">Artista</p>
+        <p id="year">Año</p>
+        <p id="genre">Género</p>
+      
+      </div>
+      <div class="barradereproduccion" id="reproducción">
+        <i class="bi bi-rewind-circle"></i>
+        <i class="bi bi-stop-circle"></i>
+        <i class="bi bi-play-circle"></i>
+        <i class="bi bi-pause-circle"></i>
+        <i class="bi bi-fast-forward-circle"></i>
+        <i class="bi bi-volume-mute"></i>
+      </div>
+    </div>
+    <div class="buscador">
+      <div class="#busqueda">
+        <input type="text" id="buscarInput" placeholder="Buscar" />
+        <button onclick="buscar()">Buscar</button>
+      </div>
+    </div>
+
+     <!-- Resultados de búsqueda -->
+     <div class="resultados-busqueda">
+      <h2>Resultados de Búsqueda</h2>
+      <ul class="elementos-lista" id="resultadosBusqueda">
+        <!-- agregan en el script -->
+      </ul>
+    </div>
+
+    <div class="Listas">
+      <div class="Lista" id="playlist">
+        <h2>Lista</h2>
+        <ul class="elementos-lista" id="playlistItems">
+          <!-- agregan en el script -->
+        </ul>
+      </div>
+      <div class="favoritos" id="favoritos">
+        <h2>Favoritos</h2>
+        <ul class="elementos-lista" id="favoritosItems">
+         <!-- agregan en el script -->
+        </ul>
+      </div>
+      <div class="myplaylist" id="myplaylist">
+        <h2>My Playlist</h2>
+        <ul class="elementos-lista" id="myplaylistItems">
+         <!-- agregan en el script -->
+
+        </ul>
+      </div>
+    </div>
+
+   
+  
+
+  <script defer src="src/main.js"></script>
+</body>
+</html>
